@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    
+}
+
+#myImg:active {
+    
+    height: 500px;
+    width: 500px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+    </style>
+    <title>Accueil</title>
+
+</head>
+<body>
+    <header>
+        <h1>Developpeur web et Web mobile</h1>
+        <p>Métier de l'avenir</p>
+
+            
+            <nav>
+                <ol>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="aboutMe.html">A propos de moi</a></li>
+                    <li><a href="myPassions.html">Mes passions</a></li>
+                    <li><a href="myDreams.html">Mes rêves</a></li>
+                </ol>                
+            </nav>
+    </header>
+            
+
+    </header>
+
+    <section>
+        <div>
+            <h1>Mon profil</h1>
+            <!-- Image Zoom HTML -->   
+            <img id="myImg" src="img/Avatar.png" alt="" width="300" height="300">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                </div>
+
+
+            <p>Bonjour, je m'appel Vieville Florent, j'ai 27 ans. Je possède un bac pro logisique réaliser en apprentissage auprès de l'entreprise 
+            GKN à Ribemont, mais j'ai fais une reconversion en tant que développeur web. J'ai déjà effectué une formation où j'ai pu effectué chez Webforce3 à Lille et je souhaite obtenir un titre-pro 
+            en tant que développeur-web et web-mobile. Je souhaite également décrocher un stage afin d'avoir de l'expérience et je souhaiterais
+            surtout pouvoir lancer ma carrière en tant que développeur web et web mobile. Sur ce site internet, je vais me présenter, présenter mes compétences, mes passions 
+            ainsi que mes rêves.</p>
+        </div>
+    </section>
+    
+    <footer><p>&copy; 2022 Vieville Florent</p>
+    </footer>
+</body>
+</html>
